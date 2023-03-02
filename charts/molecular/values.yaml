@@ -5,10 +5,17 @@
 replicaCount: 1
 
 image:
-  repository: naffets/molecular
-  pullPolicy: IfNotPresent
+  repository: ghcr.io/br4sk4/molecular
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
+
+dex:
+  image:
+    repository: ghcr.io/br4sk4/molecular
+    pullPolicy: Always
+    # Overrides the image tag whose default is the chart appVersion.
+    tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
