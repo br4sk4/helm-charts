@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  molecular:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-02T08:05:55.700409087Z"
+    dependencies:
+    - name: dex
+      repository: https://charts.dexidp.io
+      version: 0.13.0
+    description: A Helm chart for Kubernetes
+    digest: 94d318e37bef17a99203056b19f28286f72383d938325f7b676241d85527106f
+    name: molecular
+    type: application
+    urls:
+    - https://github.com/br4sk4/helm-charts/releases/download/molecular-0.1.0/molecular-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-03-02T08:05:55.700413787Z"
