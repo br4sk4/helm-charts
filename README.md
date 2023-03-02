@@ -1,2 +1,2 @@
-# molecular-helm
+# helm-charts
 
